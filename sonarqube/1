@@ -1,0 +1,2 @@
+sudo docker run -d -it -p 9000:9000 --link postgres_sonar:sonarqube --rm sonarqube 
+
